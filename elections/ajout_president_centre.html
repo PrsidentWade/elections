@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Président de Centre</title>
+    <!-- Inclure les fichiers CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Creer un Compte</h1>
+        <form action="ajout_president_centre.php" method="post">
+            <div class="form-group">
+                <label for="nom_utilisateur">Nom d'utilisateur :</label>
+                <input type="text" class="form-control" name="nom_utilisateur" required>
+            </div>
+            <div class="form-group">
+                <label for="email_utilisateur">Email :</label>
+                <input type="email" class="form-control" name="email_utilisateur" required>
+            </div>
+            <div class="form-group">
+                <label for="mot_de_passe">Mot de passe :</label>
+                <input type="password" class="form-control" name="mot_de_passe" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Creer un compte</button>
+        </form>
+    </div>
+
+    <!-- Inclure les fichiers JS Bootstrap (jQuery requis) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
